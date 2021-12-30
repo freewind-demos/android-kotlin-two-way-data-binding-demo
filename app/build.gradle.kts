@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    kotlin("kapt")
 }
 
 android {
@@ -13,7 +14,7 @@ android {
         versionName = "1.0"
     }
     buildFeatures {
-        viewBinding = true
+        dataBinding = true
     }
 }
 
